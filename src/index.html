@@ -11,27 +11,28 @@
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 
 </head>
-<body class="overflow-auto">
-  <main class="w-[35vw] h-[100%] bg-desaturated-red m-auto">
-    <div>
+<body class="overflow-hidden">
+  <main class="w-screen h-screen bg-white m-auto">
+    <div class="">
     <!-- Company logo -->
-      <div
-        class="p-10 bg-white"> 
-        <img src="../images/logo.svg" alt="company-logo">
-      </div>
+    <div class="h-3 mx-6 my-10 bg-white"> 
+      <img src="../images/logo.svg" alt="company-logo" class="w-40 h-auto">
+    </div>
+    
     <!-- Image Section -->
     <div 
       class="">
-      <img src="../images/hero-mobile.jpg" alt="hero-section">
+      <img src="../images/hero-mobile.jpg" classs="w-[100%]" alt="hero-section">
     </div>
     <!-- Heading Text Section -->
-    <div class=" font-thin pt-7 text-4xl m-auto text-center font-900 w-[25%] text-soft-red tracking-wider">
+  <div class=" bg-slate-600 h-screen"> 
+    <div class="text-center font-thin w-[40%] m-auto pt-8 pb-3 text-4xl text-soft-red">
       WE'RE 
-      <span
-        class=" text-black font-bold">
+      <br><span class="text-black font-bold">
         COMING SOON
       </span>
-    </div>
+</div>
+
     <!-- Main Text Section -->
 
     <div 
@@ -39,13 +40,23 @@
       Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.
     </div>
   
- 
+    <!-- Input Type Section -->
+
+    <div class="flex justify-center items-center pt-4 pb-18">
+      <div class="relative mt-6 w-[85%]">
+        <input 
+          class="w-full h-12 px-4 py-2 rounded-full border border-gray-300 bg-transparent placeholder:text-soft-red" placeholder="Email Address" type="email">
+        <div 
+          class="absolute right-0 top-0 h-full flex items-center justify-center bg-soft-red rounded-full w-16">
+        <img 
+          class="p-3" src="/images/icon-arrow.svg" alt="icon-img">
+        </div>
+      </div>
+  </div>  
+
+
+
   
-
-
-
-
-  Email Address
   
   <!-- <footer>
     <p class="attribution">
